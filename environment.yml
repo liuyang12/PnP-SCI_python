@@ -1,0 +1,19 @@
+name: pnpsci
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python
+  - cudatoolkit=11.0
+  - torchvision
+  - pytorch
+  - jupyterlab
+  - h5py
+  - tifffile
+  - tensorboardX
+  - scikit-image
+  - scipy
+  - pip:
+    - opencv-python
+

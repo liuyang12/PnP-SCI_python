@@ -1,0 +1,21 @@
+2020-03-11 19:28:53,507 - Couldn't get commit number: Command '['git', 'rev-parse', '--short', 'HEAD']' returned non-zero exit status 128.
+2020-03-11 19:28:53,507 - Arguments: 
+2020-03-11 19:28:53,507 - 	batch_size: 96
+2020-03-11 19:28:53,507 - 	epochs: 80
+2020-03-11 19:28:53,507 - 	resume_training: False
+2020-03-11 19:28:53,507 - 	milestone: [50, 60]
+2020-03-11 19:28:53,507 - 	lr: 0.001
+2020-03-11 19:28:53,507 - 	no_orthog: False
+2020-03-11 19:28:53,507 - 	save_every: 10
+2020-03-11 19:28:53,507 - 	save_every_epochs: 5
+2020-03-11 19:28:53,507 - 	noise_ival: [0.0196078431372549, 0.39215686274509803]
+2020-03-11 19:28:53,507 - 	val_noiseL: 0.09803921568627451
+2020-03-11 19:28:53,507 - 	patch_size: 96
+2020-03-11 19:28:53,508 - 	temp_patch_size: 5
+2020-03-11 19:28:53,508 - 	max_number_patches: 500000
+2020-03-11 19:28:53,508 - 	log_dir: logs_spatial
+2020-03-11 19:28:53,508 - 	trainset_dir: /home/yliu/dataset/DAVIS/480p
+2020-03-11 19:28:53,508 - 	valset_dir: ./data/eval
+2020-03-11 19:28:53,508 - 	gray: True
+2020-03-11 19:28:53,508 - 	fp16: True
+2020-03-11 19:28:53,508 - 	amp_opt_level: O1
